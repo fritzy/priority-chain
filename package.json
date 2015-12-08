@@ -1,0 +1,30 @@
+{
+  "name": "priority-chain",
+  "version": "0.1.0",
+  "description": "Chain events together to modify the emitted value in order of priority.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -v -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fritzy/priority-event-chain.git"
+  },
+  "keywords": [
+    "priority",
+    "event",
+    "chain",
+    "emit",
+    "emitter"
+  ],
+  "author": "Nathan Fritz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fritzy/priority-event-chain/issues"
+  },
+  "homepage": "https://github.com/fritzy/priority-event-chain#readme",
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^8.0.0"
+  }
+}
